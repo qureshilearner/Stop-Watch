@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    color: aliceblue;
+    width: 28rem;
+    height: 15rem;
+    font-size: 3rem;
+}
+
+.header{
+    color: #ff7b7b;
+    width: inherit;
+    text-align: center;
+    font-style: italic;
+    font-variant-caps: petite-caps;
+}
+
+.dots{
+    margin: -5px 7px;
+}
+
+.actions{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+    cursor: default;
+}
+
+.btn:hover{
+    background: #232826;
+}
+
+.btn{
+    background: #a7c6bc;
+    border-radius: 3rem;
+    width: 8rem;
+    text-align: center;
+    margin-right: 1rem;
+}
